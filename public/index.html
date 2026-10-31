@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weather + Outfit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Weather + Outfit</h1>
+    <p class="sub">Type a city to see the weather and what to wear.</p>
+
+    <form id="search">
+      <input id="city" type="text" placeholder="e.g. Delhi" autocomplete="off">
+      <button type="submit">Search</button>
+    </form>
+
+    <p id="error" class="error" hidden></p>
+
+    <section id="result" hidden>
+      <div class="top">
+        <img id="icon" alt="">
+        <div>
+          <p id="place" class="place"></p>
+          <p id="temp" class="temp"></p>
+          <p id="desc" class="desc"></p>
+        </div>
+      </div>
+      <p id="tip" class="tip"></p>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

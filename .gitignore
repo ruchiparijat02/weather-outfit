@@ -1,0 +1,10 @@
+# Secrets: never upload
+.env
+
+# Libraries: re-download with `npm install`
+node_modules/
+
+# Junk files
+.DS_Store
+Thumbs.db
+*.log

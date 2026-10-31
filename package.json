@@ -1,0 +1,17 @@
+{
+  "name": "weather-outfit",
+  "version": "1.0.0",
+  "description": "Type a city, see the weather and what to wear. A teaching demo for APIs, keys, status codes, .env and .gitignore.",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "license": "MIT"
+}
